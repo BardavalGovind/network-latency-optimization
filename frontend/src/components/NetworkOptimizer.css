@@ -1,0 +1,80 @@
+.network-optimizer {
+  max-width: 400px; /* Reduced width of the section */
+  margin: 30px auto; /* Center the section with margin */
+  padding: 20px; /* Padding inside the section */
+  border: 2px solid #28a745; /* Green border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #f0f8ff; /* Light background color */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+}
+
+h1 {
+  text-align: center; /* Center the title */
+  color: black; /* Black text color for the title */
+  font-family: 'Arial', sans-serif; /* Font style */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Spacing between input groups */
+}
+
+label {
+  font-weight: bold; /* Bold labels */
+  display: block; /* Labels on a new line */
+  margin-bottom: 5px; /* Space below labels */
+  color: black; /* Black color for labels */
+}
+
+input[type="number"],
+textarea {
+  width: 90%; /* Reduced width for inputs and textarea */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #28a745; /* Green border for inputs */
+  border-radius: 5px; /* Rounded corners for inputs */
+  font-size: 16px; /* Increase font size */
+  margin: 0 auto; /* Centering inputs */
+  display: block; /* Ensures inputs are block elements */
+  color: black; /* Black text color for inputs */
+}
+
+textarea {
+  height: 100px; /* Fixed height for textarea */
+  resize: vertical; /* Allow vertical resize for textarea */
+}
+
+button {
+  width: 95%; /* Reduced width for buttons */
+  padding: 10px; /* Padding inside buttons */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: #28a745; /* Green background for buttons */
+  color: white; /* White text for buttons */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 10px auto; /* Center the button with margin */
+  display: block; /* Ensures button is a block element */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+p {
+  text-align: center; /* Center text for loading and error messages */
+  font-style: italic; /* Italicize loading/error messages */
+  color: black; /* Black color for loading/error messages */
+}
+
+.details {
+  margin-top: 20px; /* Space above details */
+  border: 1px solid #ccc; /* Light border around details */
+  padding: 10px; /* Padding inside details */
+  border-radius: 5px; /* Rounded corners for details */
+  background-color: #ffffff; /* White background for details */
+}
+
+.details h4 {
+  margin-top: 0; /* Remove top margin for h4 in details */
+  color: black; /* Black color for details title */
+}
